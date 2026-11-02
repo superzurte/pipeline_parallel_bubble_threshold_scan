@@ -1,11 +1,11 @@
-# costgov_jd116
+# pipeline_parallel_bubble_threshold_scan
 
 **给成本与容量治理专家·流水线并行气泡比例打分并按阈值给出通过与否。**
 
-`costgov_jd116` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
+`pipeline_parallel_bubble_threshold_scan` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`costgov_jd116.py` 拷走就能用
+- 单文件，`pipeline_parallel_bubble_threshold_scan.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install superzurte-costgov_jd116
+pip install superzurte-pipeline_parallel_bubble_threshold_scan
 ```
 
 装完直接用命令名调用：
 
 ```bash
-costgov_jd116 --help
+pipeline_parallel_bubble_threshold_scan --help
 ```
 
-也可以不用安装，直接把 `costgov_jd116.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `pipeline_parallel_bubble_threshold_scan.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ costgov_jd116 --help
 ## 用法
 
 ```bash
-python costgov_jd116.py --file input.txt
-python costgov_jd116.py --text "示例内容"
-python costgov_jd116.py --file input.txt --json
+python pipeline_parallel_bubble_threshold_scan.py --file input.txt
+python pipeline_parallel_bubble_threshold_scan.py --text "示例内容"
+python pipeline_parallel_bubble_threshold_scan.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python costgov_jd116.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_costgov_jd116.py
+python test_pipeline_parallel_bubble_threshold_scan.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_costgov_jd116.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/superzurte/costgov_jd116>
+- GitHub 仓库：<https://github.com/superzurte/pipeline_parallel_bubble_threshold_scan>
 
 ---
 
@@ -79,7 +79,7 @@ python test_costgov_jd116.py
 superzurte 做成本与容量治理专家·流水线并行气泡比例相关的问题，方向对标小米的中级成本与容量治理专家岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://superzurte.github.io>
-- 仓库：<https://github.com/superzurte/costgov_jd116>
+- 仓库：<https://github.com/superzurte/pipeline_parallel_bubble_threshold_scan>
 
 ## 许可
 

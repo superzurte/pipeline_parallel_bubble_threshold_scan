@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "superzurte-costgov_jd116"
+name = "superzurte-pipeline_parallel_bubble_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://superzurte.github.io"
-Repository = "https://github.com/superzurte/costgov_jd116"
-Issues = "https://github.com/superzurte/costgov_jd116/issues"
+Repository = "https://github.com/superzurte/pipeline_parallel_bubble_threshold_scan"
+Issues = "https://github.com/superzurte/pipeline_parallel_bubble_threshold_scan/issues"
 
 [project.scripts]
-costgov_jd116 = "costgov_jd116:main"
+pipeline_parallel_bubble_threshold_scan = "pipeline_parallel_bubble_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["costgov_jd116"]
+py-modules = ["pipeline_parallel_bubble_threshold_scan"]
